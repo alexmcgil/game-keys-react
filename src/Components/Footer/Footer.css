@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Avenir Next Cyr Regular';
+    src: url('./../../Fonts/AvenirNextCyr-Regular.eot');
+    src: url('./../../Fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./../../Fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('./../../Fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 237px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    cursor: pointer;
+}
+
+.contract {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 1240px;
+    top: 46px;
+    font-family: 'Avenir Next Cyr Regular';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #E571F6;
+}
+
