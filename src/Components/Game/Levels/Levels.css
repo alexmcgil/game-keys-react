@@ -1,0 +1,9 @@
+.lvlOne {
+    margin-bottom: 17px;
+}
+
+.lvlTwoThree {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
