@@ -27,3 +27,19 @@
     top: 40px;
     left: 170px;
 }
+
+@keyframes do-levitation {
+0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 1em);
+    }
+}
+
+.keyInJail {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    animation: do-levitation 1.2s alternate ease-in-out infinite
+}
