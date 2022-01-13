@@ -720,7 +720,7 @@ function Game() {
             </svg>
 
         </div>
-        <div className="key">
+        <div className="keyInJail">
             <svg width="205" height="205" viewBox="0 0 205 205" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="102.5" cy="102.5" r="102.5" fill="url(#paint0_radial_101_2)"/>
                 <path
