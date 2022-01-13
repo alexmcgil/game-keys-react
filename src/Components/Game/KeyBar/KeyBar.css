@@ -1,0 +1,15 @@
+.Keybar {
+    position: absolute;
+    bottom: -15px;
+    left: 75px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.KeyInBar {
+    margin: 0 -12px;
+}
+
+.KeyUnavailable {
+    margin-right: -12px;
+}

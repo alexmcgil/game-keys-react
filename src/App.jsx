@@ -4,11 +4,13 @@ import Header from "./Components/Header/Header";
 import BackGround from "./Components/Background/BackGround";
 import Footer from "./Components/Footer/Footer";
 import Game from "./Components/Game/Game";
+import PopUp from "./Components/PopUp/PopUp";
 
 function App(){
 
 	return <div>
 		<Header />
+		<PopUp />
 		<BackGround />
 		<Game />
 		<Footer />

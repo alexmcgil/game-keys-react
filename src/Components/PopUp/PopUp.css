@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Avenir Next Cyr Demi';
+    src: url('./../../Fonts/AvenirNextCyr-Demi.eot');
+    src: url('./../../Fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+    url('./../../Fonts/AvenirNextCyr-Demi.woff') format('woff'),
+    url('./../../Fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.PopUp{
+    font-family: 'Avenir Next Cyr Demi';
+    position: absolute;
+    width: 324px;
+    height: 208px;
+    left: 1353px;
+    top: 149px;
+    background-color: #030A2E;
+    border-radius: 15px;
+    border-color: #E571F6;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+
+.KeyRemaining {
+    margin: -24px;
+    cursor: pointer;
+}
+
+.PopUp p {
+    text-align: center;
+    margin: 24px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: default;
+}
+
+.PopUp p span {
+    color: #E571F6;
+}
+
+.quantity {
+    color: #E571F6;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    cursor: default;
+}
+
+.remaining {
+    display: flex;
+    flex-direction: row-reverse;
+}

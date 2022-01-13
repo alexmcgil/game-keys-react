@@ -4,7 +4,7 @@
     src: url('./../../Fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
     url('./../../Fonts/AvenirNextCyr-Regular.woff') format('woff'),
     url('./../../Fonts/AvenirNextCyr-Regular.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 450;
     font-style: normal;
 }
 
@@ -16,6 +16,13 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -32,7 +39,7 @@ li {
     top: 46px;
     font-family: 'Avenir Next Cyr Regular';
     font-style: normal;
-    font-weight: 450;
+    font-weight: 600;
     font-size: 24px;
     line-height: 28px;
     text-decoration-line: underline;
