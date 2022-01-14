@@ -8,39 +8,27 @@
     font-style: normal;
 }
 
-.head {
+.ConnectWallet {
+    position:relative;
+    width: 264px;
+    height: 78px;
+    cursor: pointer;
+}
+
+.button_bck{
+    position:absolute;
+    top: 0;
+}
+.button_text{
+    position:absolute;
+    top: 25px;
+    left: 50px;
+
     font-family: 'Avenir Next Cyr Demi';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
     color: #FFF;
-    height: 116px;
-    cursor: default;
 }
 
-.head__active-block {
-    position:relative;
-    height: 59px;
-    width: 417px;
-    margin: 0 auto;
-}
-
-.lvlOne_back {
-    position:absolute;
-    top: 0;
-}
-
-.lvlOne_text {
-    position:absolute;
-    top: 15px;
-    left: 170px;
-}
-
-.lvlTwoThree {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    margin-top: 17px;
-}

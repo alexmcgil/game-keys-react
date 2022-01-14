@@ -8,7 +8,7 @@ import PopUp from "./Components/PopUp/PopUp";
 
 function App(){
 
-	return <div>
+	return <div className="wrapper">
 		<Header />
 		<PopUp />
 		<BackGround />

@@ -8,15 +8,17 @@
     font-style: normal;
 }
 
-.PopUp{
+.PopUp {
     font-family: 'Avenir Next Cyr Demi';
     position: absolute;
     width: 324px;
     height: 208px;
-    left: 1353px;
+    right: 10vw;
     top: 149px;
+    font-weight: 600;
     background-color: #030A2E;
     border-radius: 15px;
+    border-width: 1px;
     border-color: #E571F6;
     border-style: solid;
     display: flex;
@@ -35,10 +37,10 @@
 .PopUp p {
     text-align: center;
     margin: 24px 0;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
     cursor: default;
+    color: #FFF;
 }
 
 .PopUp p span {
@@ -48,7 +50,6 @@
 .quantity {
     color: #E571F6;
     margin-bottom: 24px;
-    font-weight: 600;
     font-size: 28px;
     line-height: 36px;
     cursor: default;
@@ -57,4 +58,27 @@
 .remaining {
     display: flex;
     flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1270px) {
+    .PopUp {
+        right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .PopUp {
+        right: 1vw;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .PopUp {
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .KeyRemaining {
+        margin: 5px -24px;
+    }
 }

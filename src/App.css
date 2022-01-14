@@ -1,6 +1,7 @@
-#root {
-    position: relative;
-    width: 1920px;
-    height: 980px;
-    background: linear-gradient(113.69deg, #082354 -2.79%, #03092D 33.14%, #030B32 100%);
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }

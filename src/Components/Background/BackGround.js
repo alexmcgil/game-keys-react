@@ -2,8 +2,12 @@ import React from 'react'
 import "./BackGround.css"
 
 function BackGround() {
-    return (<div className="background">
-            <svg width="1440" height="740" viewBox="0 0 1440 740" fill="none" xmlns="http://www.w3.org/2000/svg">
+    return (
+        <div className="background-wrap">
+        <div className="background">
+
+            {/*<svg className="background-svg" width="1440" height="740" viewBox="0 0 1440 740" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
+            <svg className="background-svg" viewBox="0 0 1440 740" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.7">
                     <g opacity="0.5">
                         <path
@@ -1031,6 +1035,8 @@ function BackGround() {
                     </linearGradient>
                 </defs>
             </svg>
+
+        </div>
         </div>
     )
 }

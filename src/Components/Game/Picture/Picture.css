@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'Avenir Next Cyr Regular';
+    src: url('./../../../Fonts/AvenirNextCyr-Regular.eot');
+    src: url('./../../../Fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./../../../Fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('./../../../Fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: 450;
+    font-style: normal;
+}
+
 .picture {
-    position: absolute;
+    position: relative;
     width: 620px;
     height: 475px;
-    left: -100px;
-    top: 150px;
+    margin: 25px auto;
 }
 
 .grid {
@@ -16,14 +25,38 @@
     left: 133px;
 }
 
-.key {
-    position: absolute;
-    top: 55px;
-    left: 200px;
-}
-
 .grid {
     position: absolute;
     top: 40px;
     left: 170px;
+}
+
+@keyframes do-levitation {
+0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 1em);
+    }
+}
+
+.keyInJail {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    animation: do-levitation 1.2s alternate ease-in-out infinite
+}
+
+.check-text {
+    position: absolute;
+    bottom: 28px;
+    left: 170px;
+    cursor: pointer;
+    font-family: 'Avenir Next Cyr Regular';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #E571F6;
 }

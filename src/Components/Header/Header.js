@@ -1,19 +1,20 @@
 import React from 'react'
 import "./Header.css"
-import "./Button/Button"
-import Button from "./Button/Button";
+import "./ConnectWallet/ConnectWallet"
+import ConnectWallet from "./ConnectWallet/ConnectWallet";
 
 function Header() {
     return (
         <header>
-            <ul>
-                <li>Home</li>
-                <li>Game</li>
-                <li>Vault</li>
-                <li>Scoreboard</li>
-            </ul>
-            <Button />
-
+            <nav>
+                <ul>
+                    <li className="nav-links">Home</li>
+                    <li className="nav-links">Game</li>
+                    <li className="nav-links">Vault</li>
+                    <li className="nav-links">Scoreboard</li>
+                </ul>
+                <ConnectWallet/>
+            </nav>
         </header>)
 }
 

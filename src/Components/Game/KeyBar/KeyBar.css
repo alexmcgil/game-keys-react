@@ -1,9 +1,9 @@
 .Keybar {
-    position: absolute;
-    bottom: -15px;
-    left: 75px;
+    position: relative;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 1px;
 }
 
 .KeyInBar {
