@@ -6,7 +6,7 @@ import KeyBar from "./KeyBar/KeyBar"
 
 function Game() {
     return (
-        <main>
+        <main className="game-section">
             <Levels />
             <Picture />
             <KeyBar />

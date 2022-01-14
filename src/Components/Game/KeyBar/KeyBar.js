@@ -6,11 +6,11 @@ import KeyUnavailable from "./Keys/KeyUnavailable";
 
 function KeyBar(){
     return (
-        <div className="Keybar">
-            <div className="KeyInBar"> <Key /></div>
-            <div className="KeyInBar"> <Key /></div>
-            <div className="KeyInBar"> <Key /></div>
-            <KeyUnavailable />
+        <div className="game-section__key-bar">
+            <Key className="game-section__key-bar_image-of-key"/>
+            <Key className="game-section__key-bar_image-of-key"/>
+            <Key className="game-section__key-bar_image-of-key"/>
+            <KeyUnavailable className="game-section__key-bar_image-of-unavailable-key"/>
         </div>
     )
 }

@@ -3,11 +3,11 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <footer>
-            <div className="links">
-                <ul className="wrap-link">
-                    <li className="link">
-                        <a href="https://twitter.com/" rel="noreferrer" target="_blank">
+        <footer className="footer">
+            <div className="footer__links">
+                <ul className="footer__links__wrapper">
+                    <li className="footer__links__wrapper__link">
+                        <a href="https://twitter.com/" rel="noreferrer" target="_blank" className="footer__links__wrapper__link_a">
                             <svg width="50" height="39" viewBox="0 0 50 39" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -16,8 +16,8 @@ function Footer() {
                             </svg>
                         </a>
                     </li>
-                    <li className="link">
-                        <a href="https://discord.com/" rel="noreferrer" target="_blank">
+                    <li className="footer__links__wrapper__link">
+                        <a href="https://discord.com/" rel="noreferrer" target="_blank" className="footer__links__wrapper__link_a">
                             <svg width="51" height="37" viewBox="0 0 51 37" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -26,8 +26,8 @@ function Footer() {
                             </svg>
                         </a>
                     </li>
-                    <li className="link">
-                        <a href="https://telegram.org/" rel="noreferrer" target="_blank">
+                    <li className="footer__links__wrapper__link">
+                        <a href="https://telegram.org/" rel="noreferrer" target="_blank" className="footer__links__wrapper__link_a">
                             <svg width="48" height="50" viewBox="0 0 48 50" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -36,8 +36,8 @@ function Footer() {
                             </svg>
                         </a>
                     </li>
-                    <li className="link">
-                        <a href="https://instagram.com/" rel="noreferrer" target="_blank">
+                    <li className="footer__links__wrapper__link">
+                        <a href="https://instagram.com/" rel="noreferrer" target="_blank" className="footer__links__wrapper__link_a">
                             <svg width="49" height="50" viewBox="0 0 49 50" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -47,7 +47,7 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
-                <div className="contract">Smart contract</div>
+                <div className="footer__links__smart-contract">Smart contract</div>
             </div>
         </footer>)
 }

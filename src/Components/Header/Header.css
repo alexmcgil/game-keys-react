@@ -8,25 +8,25 @@
     font-style: normal;
 }
 
-header {
+.header {
     height: 78px;
     margin: 21px 0 64px 0;
     position: absolute;
     right: 10vw;
 }
 
-nav {
+.navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
-ul {
+.navigation__links__wrapper {
     display: inline;
 }
 
-.nav-links {
+.navigation__links__wrapper_link {
     display: inline;
     color: #FEFEFE;
     font-family: 'Avenir Next Cyr Demi';
@@ -39,19 +39,19 @@ ul {
 }
 
 @media screen and (max-width: 1270px) {
-    header {
+    .header {
         right: 5vw;
     }
 }
 
 @media screen and (max-width: 1130px) {
-    header {
+    .header {
         right: 1vw;
     }
 }
 
 @media screen and (max-width: 1030px) {
-    header {
+    .header {
         right: 1vw;
     }
 }

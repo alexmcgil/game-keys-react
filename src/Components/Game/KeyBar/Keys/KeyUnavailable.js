@@ -1,8 +1,8 @@
 import React from 'react'
 
-function KeyUnavailable() {
+function KeyUnavailable(props) {
     return (
-        <div className="KeyUnavailable">
+        <div className={props.className}>
             <svg width="78" height="60" viewBox="0 0 78 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M13.3466 14.5002V21.167V28.0254C13.3466 28.2224 13.2167 28.445 12.8965 28.6295L12.8895 28.6335L12.8831 28.6383L8.48996 31.9291L8.35093 32.0074L8.34985 32.008C8.07439 32.1665 7.72107 32.2592 7.35071 32.2815V16.7096L13.3466 14.5002Z"

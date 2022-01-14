@@ -3,8 +3,8 @@ import "./ConnectWallet.css"
 
 function ConnectWallet() {
     return (
-        <div className="ConnectWallet">
-            <div className="button_bck">
+        <div className="navigation__links__connect-button">
+            <div className="navigation__links__connect-button_background">
             <svg width="266" height="80" viewBox="0 0 266 80" fill="none" xmlns="http:www.w3.org/2000/svg">
                 <path opacity="0.46"
                       d="M16.7273 4.10222C17.4972 2.22555 19.3247 1 21.3531 1H245.725C247.714 1 249.514 2.17883 250.309 4.00207L265.129 38.0021C265.684 39.2761 265.684 40.7239 265.129 41.9979L250.309 75.9979C249.514 77.8212 247.714 79 245.725 79H21.3531C19.3247 79 17.4972 77.7745 16.7273 75.8978L2.77858 41.8978C2.2797 40.6818 2.2797 39.3182 2.77858 38.1022L16.7273 4.10222Z"
@@ -46,7 +46,7 @@ function ConnectWallet() {
                 </defs>
             </svg>
             </div>
-            <span className="button_text">
+            <span className="navigation__links__connect-button_description">
             Connect wallet
         </span>
         </div>

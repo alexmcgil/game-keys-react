@@ -1,4 +1,4 @@
-.Keybar {
+.game-section__key-bar {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
@@ -6,10 +6,10 @@
     margin-bottom: 1px;
 }
 
-.KeyInBar {
+.game-section__key-bar_image-of-key {
     margin: 0 -12px;
 }
 
-.KeyUnavailable {
-    margin-right: -12px;
+.game-section__key-bar_image-of-unavailable-key {
+    margin: 0 -12px;
 }

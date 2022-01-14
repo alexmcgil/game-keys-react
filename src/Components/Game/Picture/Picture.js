@@ -2,8 +2,7 @@ import React from 'react'
 import "./Picture.css"
 
 function Game() {
-    return <div className="picture">
-        <div className="picture__wrapper">
+    return <div className="game-section__picture-wrapper">
         <svg width="620" height="475" viewBox="0 0 620 475" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_1_339)">
                 <path d="M132.504 28.5C132.771 12.9906 145.427 0.5 161 0.5H458C473.573 0.5 486.229 12.9906 486.496 28.5H132.504Z" fill="#030B31" stroke="url(#paint0_linear_1_339)"/>
@@ -485,7 +484,7 @@ function Game() {
             </defs>
         </svg>
 
-        <div className="jail">
+        <div className="game-section__picture-wrapper_jail">
             <svg width="355" height="268" viewBox="0 0 355 268" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M0.504298 28.5C0.771106 12.9906 13.4269 0.5 29 0.5H326C341.573 0.5 354.229 12.9906 354.496 28.5H0.504298Z"
@@ -540,7 +539,7 @@ function Game() {
             </svg>
 
         </div>
-        <div className="keyInJail">
+        <div className="game-section__picture-wrapper_key-in-jail">
             <svg width="205" height="205" viewBox="0 0 205 205" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="102.5" cy="102.5" r="102.5" fill="url(#paint0_radial_101_2)"/>
                 <path
@@ -681,7 +680,7 @@ function Game() {
             </svg>
 
         </div>
-        <div className="grid">
+        <div className="game-section__picture-wrapper_grid">
             <svg width="281" height="228" viewBox="0 0 281 228" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.5" y="114.5" width="2" height="113" fill="url(#paint0_radial_101_4)"
                       stroke="url(#paint1_linear_101_4)"/>
@@ -1024,9 +1023,8 @@ function Game() {
             </svg>
 
         </div>
-            <div className="check-text">Check all keyholes</div>
+            <div className="game-section__picture-wrapper_description">Check all keyholes</div>
         </div>
-    </div>
 
 }
 

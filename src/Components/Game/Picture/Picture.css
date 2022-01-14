@@ -8,31 +8,28 @@
     font-style: normal;
 }
 
-.picture {
+.game-section__picture-wrapper {
     position: relative;
     width: 620px;
     height: 475px;
     margin: 25px auto;
 }
 
-.grid {
-    cursor: pointer;
-}
-
-.jail {
+.game-section__picture-wrapper_jail {
     position: absolute;
     top: 0;
     left: 133px;
 }
 
-.grid {
+.game-section__picture-wrapper_key-in-jail {
     position: absolute;
-    top: 40px;
-    left: 170px;
+    top: 45px;
+    left: 200px;
+    animation: do-levitation 1.2s alternate ease-in-out infinite
 }
 
 @keyframes do-levitation {
-0% {
+    0% {
         transform: translate(0, 0);
     }
     100% {
@@ -40,14 +37,14 @@
     }
 }
 
-.keyInJail {
+.game-section__picture-wrapper_grid {
     position: absolute;
-    top: 45px;
-    left: 200px;
-    animation: do-levitation 1.2s alternate ease-in-out infinite
+    top: 40px;
+    left: 170px;
+    cursor: pointer;
 }
 
-.check-text {
+.game-section__picture-wrapper_description {
     position: absolute;
     bottom: 28px;
     left: 170px;

@@ -5,8 +5,8 @@ function Unachieved(props) {
 
 
     return (
-        <div className="UnachievedLevels">
-            <div className="img">
+        <div className="game-section__levels__not-active-levels-block__wrapper">
+            <div className="game-section__levels__not-active-levels-block__wrapper_background">
                 <svg width="135" height="42" viewBox="0 0 135 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M7.53595 4.41675C8.21717 2.37612 10.1273 1 12.2787 1H122.227C124.33 1 126.208 2.31558 126.926 4.29178L132.379 19.2918C132.78 20.3953 132.78 21.6047 132.379 22.7082L126.926 37.7082C126.208 39.6844 124.33 41 122.227 41H12.2787C10.1273 41 8.21718 39.6239 7.53596 37.5833L2.52853 22.5833C2.18548 21.5556 2.18548 20.4444 2.52853 19.4167L7.53595 4.41675Z"
@@ -37,7 +37,7 @@ function Unachieved(props) {
                 </svg>
 
             </div>
-            <div className="UnachievedLevel_text">{props.levelInfo}</div>
+            <div className="game-section__levels__not-active-levels-block__wrapper_description">{props.levelInfo}</div>
         </div>
     )
 }

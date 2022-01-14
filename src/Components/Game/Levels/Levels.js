@@ -9,9 +9,9 @@ function Levels() {
     let second = "Level 3"
 
     return (
-        <div className="head">
-            <div className="head__active-block">
-                <div className="lvlOne_back">
+        <div className="game-section__levels">
+            <div className="game-section__levels__active-level">
+                <div className="game-section__levels__active-level_background">
                     <svg width="417" height="61" viewBox="0 0 417 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M113.882 4.54701C114.522 2.44026 116.465 1 118.666 1H300.088C302.339 1 304.313 2.50491 304.909 4.6761L311.636 29.1761C311.874 30.0427 311.874 30.9573 311.636 31.8239L304.909 56.3239C304.313 58.4951 302.339 60 300.088 60H118.666C116.465 60 114.522 58.5597 113.882 56.453L106.441 31.953C106.154 31.0057 106.154 29.9943 106.441 29.047L113.882 4.54701Z" fill="url(#paint0_radial_1_243)"/>
                         <path d="M299 1H301.964C302.554 1 303.075 1.38507 303.247 1.94908L311.879 30.1065C311.958 30.3629 311.958 30.6371 311.879 30.8935L303.247 59.0509C303.075 59.6149 302.554 60 301.964 60H299" stroke="url(#paint1_radial_1_243)" strokeWidth="2"/>
@@ -45,9 +45,9 @@ function Levels() {
                     </svg>
 
                 </div>
-                <div className="lvlOne_text">{currentLevel}</div>
+                <div className="game-section__levels__active-level_text">{currentLevel}</div>
             </div>
-            <div className="lvlTwoThree">
+            <div className="game-section__levels__not-active-levels-block">
             <Unachieved levelInfo={first}/>
             <Unachieved levelInfo={second}/>
             </div>

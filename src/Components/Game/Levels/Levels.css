@@ -8,7 +8,7 @@
     font-style: normal;
 }
 
-.head {
+.game-section__levels {
     font-family: 'Avenir Next Cyr Demi';
     font-style: normal;
     font-weight: 600;
@@ -19,25 +19,25 @@
     cursor: default;
 }
 
-.head__active-block {
+.game-section__levels__active-level {
     position:relative;
     height: 59px;
     width: 417px;
     margin: 0 auto;
 }
 
-.lvlOne_back {
+.game-section__levels__active-level_background {
     position:absolute;
     top: 0;
 }
 
-.lvlOne_text {
+.game-section__levels__active-level_text {
     position:absolute;
     top: 15px;
     left: 170px;
 }
 
-.lvlTwoThree {
+.game-section__levels__not-active-levels-block {
     display: flex;
     justify-content: center;
     align-items: center;

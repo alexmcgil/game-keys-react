@@ -8,7 +8,7 @@
     font-style: normal;
 }
 
-.PopUp {
+.pop-up {
     font-family: 'Avenir Next Cyr Demi';
     position: absolute;
     width: 324px;
@@ -29,12 +29,12 @@
 
 }
 
-.KeyRemaining {
+.pop-up__stack-of-keys_image-of-key {
     margin: -24px;
     cursor: pointer;
 }
 
-.PopUp p {
+.pop-up__remaining__description {
     text-align: center;
     margin: 24px 0;
     font-size: 1.5rem;
@@ -43,11 +43,11 @@
     color: #FFF;
 }
 
-.PopUp p span {
+.pop-up__remaining__description_purple {
     color: #E571F6;
 }
 
-.quantity {
+.pop-up__quantity {
     color: #E571F6;
     margin-bottom: 24px;
     font-size: 28px;
@@ -55,30 +55,30 @@
     cursor: default;
 }
 
-.remaining {
+.pop-up__stack-of-keys {
     display: flex;
     flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 1270px) {
-    .PopUp {
+    .pop-up {
         right: 5vw;
     }
 }
 
 @media screen and (max-width: 1130px) {
-    .PopUp {
+    .pop-up {
         right: 1vw;
     }
 }
 
 @media screen and (max-width: 1035px) {
-    .PopUp {
+    .pop-up {
         position: relative;
         margin-bottom: 15px;
     }
 
-    .KeyRemaining {
+    .pop-up__stack-of-keys_image-of-key {
         margin: 5px -24px;
     }
 }

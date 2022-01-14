@@ -1,17 +1,17 @@
-.UnachievedLevels {
+.game-section__levels__not-active-levels-block__wrapper {
     height: 40px;
     width: 131px;
     position: relative;
     margin: 0 23px;
 }
 
-.img{
+.game-section__levels__not-active-levels-block__wrapper_background{
     position:absolute;
     top: 0;
     height: 40px;
 }
 
-.UnachievedLevel_text {
+.game-section__levels__not-active-levels-block__wrapper_description {
     position: absolute;
     top: 7px;
     left: 40px;
@@ -20,11 +20,4 @@
     line-height: 24px;
     width: 60px;
     height: 24px;
-}
-
-.safe {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
 }

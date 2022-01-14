@@ -8,18 +8,18 @@
     font-style: normal;
 }
 
-.ConnectWallet {
+.navigation__links__connect-button {
     position:relative;
     width: 264px;
     height: 78px;
     cursor: pointer;
 }
 
-.button_bck{
+.navigation__links__connect-button_background{
     position:absolute;
     top: 0;
 }
-.button_text{
+.navigation__links__connect-button_description{
     position:absolute;
     top: 25px;
     left: 50px;
